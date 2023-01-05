@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(135deg, #A46608 0%, #CBB93B 51%, #574303 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: whitesmoke;
+}
+
+i {
+    color: brown;
+}
+
+.redBox {
+    background-color: brown;
+    width: 150px;
+    max-height: 85px;
+}
+
+.dotPlayer1, .dotPlayer2 {
+    font-size: 6rem;
+    display: block;
+    color: red;
+}
+.dotPlayer2 {display: none;}
+
+#player1Global, #player2Global {
+    font-size: 5rem !important;
+    color: brown;
+}
+
+#player1Current, #player2Current {
+    color: white;
+}
